@@ -9,3 +9,6 @@ def reg(request):
 
 def add(request):
     return HttpResponse("add")
+
+def clear(request):
+    return HttpResponse("clear")
