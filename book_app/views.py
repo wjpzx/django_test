@@ -6,3 +6,6 @@ def login(request):
 
 def reg(request):
     return HttpResponse("reg")
+
+def add(request):
+    return HttpResponse("add")
